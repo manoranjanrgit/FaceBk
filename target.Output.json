@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 496200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebooklogin page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_facebooklogin_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9815537700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify login with invalid credentials",
+        "description": "",
+        "id": "to-validate-facebook-login-functionality;to-verify-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 740744800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 423334100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to enter username and password icon",
+            "match": {
+              "location": "LoginStepDefinition.user_to_enter_username_and_password_icon(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "manoranjan",
+                  "jio",
+                  "",
+                  "gio",
+                  "icon"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30423123400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 159500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebooklogin page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_facebooklogin_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8279190000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To verify the first and last name with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-facebook-login-functionality;to-verify-the-first-and-last-name-with-valid-and-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 786625800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 398493000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User to enter the first and last name",
+            "match": {
+              "location": "LoginStepDefinition.user_to_enter_the_first_and_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250223800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user to click the signup",
+            "match": {
+              "location": "LoginStepDefinition.user_to_click_the_signup()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate facebook login functionality",
+    "description": "",
+    "id": "to-validate-facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Featurefile/login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,179 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 435300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebooklogin page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_facebooklogin_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11041857300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To verify login with invalid credentials",
+        "description": "",
+        "id": "to-validate-facebook-login-functionality;to-verify-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1228310200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 460530500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User to enter username and password icon",
+            "match": {
+              "location": "LoginStepDefinition.user_to_enter_username_and_password_icon(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "manoranjan",
+                  "jio",
+                  "",
+                  "gio",
+                  "icon"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 408118800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click login button",
+            "match": {
+              "location": "LoginStepDefinition.user_click_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 162400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on facebooklogin page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_facebooklogin_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8772983400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeExecution()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To verify the first and last name with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-facebook-login-functionality;to-verify-the-first-and-last-name-with-valid-and-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 721668000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterExecution()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Cannot locate an element using id\u003du_0_\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-LNDVNHL\u0027, ip: \u0027192.168.1.36\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_221\u0027\nDriver info: driver.version: RemoteWebDriver\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat com.stepdefinition.LoginStepDefinition.user_to_enter_the_first_and_last_name(LoginStepDefinition.java:40)\r\n\tat ✽.User to enter the first and last name(src/test/resources/Featurefile/login.feature:13)\r\n",
+              "duration": 54463857100,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "User to enter the first and last name",
+            "match": {
+              "location": "LoginStepDefinition.user_to_enter_the_first_and_last_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23200,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user to click the signup",
+            "match": {
+              "location": "LoginStepDefinition.user_to_click_the_signup()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate facebook login functionality",
+    "description": "",
+    "id": "to-validate-facebook-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Featurefile/login.feature",
+    "tags": []
+  }
+]
